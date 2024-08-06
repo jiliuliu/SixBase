@@ -1,32 +1,15 @@
-#
-# Be sure to run `pod lib lint SixBase.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'SixBase'
   s.version          = '0.1.0'
   s.summary          = 'A short description of SixBase.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/liujiliu1989@163.com/SixBase'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liujiliu1989@163.com' => 'jiliu.liu@alpha-ess.com' }
   s.source           = { :git => 'https://github.com/liujiliu1989@163.com/SixBase.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
@@ -35,8 +18,13 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'SixBase' => ['SixBase/Assets/*.png']
   # }
+  
+  s.subspec 'Utils' do |c|
+    c.source_files = 'SixBase/Classes/Utils/**/*'
+  end
+  
+  s.subspec 'Router' do |c|
+    c.source_files = 'SixBase/Classes/Router/**/*'
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

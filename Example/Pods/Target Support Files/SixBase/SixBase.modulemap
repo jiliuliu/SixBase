@@ -1,0 +1,6 @@
+framework module SixBase {
+  umbrella header "SixBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+PODS:
+  - SixBase (0.1.0):
+    - SixBase/Router (= 0.1.0)
+    - SixBase/Utils (= 0.1.0)
+  - SixBase/Router (0.1.0)
+  - SixBase/Utils (0.1.0)
+
+DEPENDENCIES:
+  - SixBase (from `../`)
+
+EXTERNAL SOURCES:
+  SixBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SixBase: 9b91e609df8fdb7cb0bdc54a913b58f53095c275
+
+PODFILE CHECKSUM: 7b62ef3a76c99c33ea69275b53e552cfd7cd41c2
+
+COCOAPODS: 1.15.2
