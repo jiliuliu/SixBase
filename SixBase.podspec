@@ -12,12 +12,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/jiliuliu/SixBase.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
-
-  s.source_files = 'SixBase/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SixBase' => ['SixBase/Assets/*.png']
-  # }
+#   s.resource_bundles = {
+#     'SixBase' => ['SixBase/Assets/**/*']
+#   }
   
   s.subspec 'Utils' do |c|
     c.source_files = 'SixBase/Classes/Utils/**/*'

@@ -7,8 +7,8 @@
 
 import Foundation
 
-class Utils {
-    static func hello() -> String {
+public class Utils {
+    public static func hello() -> String {
         "hello"
     }
 }
