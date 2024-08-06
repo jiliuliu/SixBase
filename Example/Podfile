@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SixBase_Example' do
+  pod 'SixBase', :path => '../'
+
+  target 'SixBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
