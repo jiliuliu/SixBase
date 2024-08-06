@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/liujiliu1989@163.com/SixBase'
+  s.homepage         = 'https://github.com/jiliuliu/SixBase'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liujiliu1989@163.com' => 'jiliu.liu@alpha-ess.com' }
-  s.source           = { :git => 'https://github.com/liujiliu1989@163.com/SixBase.git', :tag => s.version.to_s }
+  s.author           = { "six" => "liujiliu1989@163.com" }
+  s.source           = { :git => 'https://github.com/jiliuliu/SixBase.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
 
