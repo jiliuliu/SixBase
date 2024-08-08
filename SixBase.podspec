@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SixBase'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of SixBase.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -23,6 +23,10 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Router' do |c|
     c.source_files = 'SixBase/Classes/Router/**/*'
+  end
+  
+  s.subspec 'Extension' do |c|
+    c.source_files = 'SixBase/Classes/Extension/**/*'
   end
 
 end

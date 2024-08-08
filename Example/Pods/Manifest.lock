@@ -1,7 +1,9 @@
 PODS:
   - SixBase (0.1.0):
+    - SixBase/Extension (= 0.1.0)
     - SixBase/Router (= 0.1.0)
     - SixBase/Utils (= 0.1.0)
+  - SixBase/Extension (0.1.0)
   - SixBase/Router (0.1.0)
   - SixBase/Utils (0.1.0)
 
@@ -13,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SixBase: 4cface4776f887e252522556983da020f6753cf7
+  SixBase: b3badb5aea54a8bfa4f67aa9d5dab4414b55975c
 
-PODFILE CHECKSUM: 648290302d3b5b5ed908e2b282940f11d303cde8
+PODFILE CHECKSUM: a85b8870928c6a9a280e06c856c7e1d9c0e13fd2
 
 COCOAPODS: 1.15.2

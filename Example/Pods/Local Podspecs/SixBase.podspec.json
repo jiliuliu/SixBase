@@ -26,6 +26,10 @@
     {
       "name": "Router",
       "source_files": "SixBase/Classes/Router/**/*"
+    },
+    {
+      "name": "Extension",
+      "source_files": "SixBase/Classes/Extension/**/*"
     }
   ]
 }

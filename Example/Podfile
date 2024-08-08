@@ -1,9 +1,13 @@
+source 'https://github.com/jiliuliu/SixSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
 platform :ios, '13.0'
 
 target 'SixBase_Example' do
   pod 'SixBase', :path => '../'
+#  pod 'SixBase/Router'
 
   target 'SixBase_Tests' do
     inherit! :search_paths

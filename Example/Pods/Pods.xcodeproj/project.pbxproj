@@ -8,27 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		095433125B3BEC6B1DAF697AD72DF41E /* Pods-SixBase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B84AEA5AE1E18AA1D75A0D63E3A9301 /* Pods-SixBase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		219A3F0DD6CDF505C27D3663ED4B4D5A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AE29586EE742E59DAED613D497F24 /* Utils.swift */; };
+		1FCDB780E217CDAF3B800969A33503AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		29B05B9A818828F8515F42C01921396E /* router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4173C25BB2520935B183708908D39606 /* router.swift */; };
 		2F9899F7A781D55E3CB352B336501585 /* Pods-SixBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E327966DE66436B0012581E848F937 /* Pods-SixBase_Tests-dummy.m */; };
 		34A23236FD7B5748D8F103016C440740 /* Pods-SixBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD51B752F0719406BA3C531786638E77 /* Pods-SixBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55DEAC5B711A9331F538892D06E72A9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		989024F8D36171FB6744352E25941CC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9FFC3EA190740A1A1220CCAAD230C914 /* SixBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF0E1EB705E7926C0F8D3BA37BE5660 /* SixBase-dummy.m */; };
 		C2F6A36F17D58BD0387791A032E44311 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C59C39178525335733EBAB7D37E7637C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C8829BC361BA7BC96ABF98D60A3D3 /* Utils.swift */; };
+		CE51C4FF2C644FA700326B9A /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51C4FE2C644FA700326B9A /* UIImage+Extension.swift */; };
 		D9749AE8AE7125E325BE6FFF9CC56404 /* Pods-SixBase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EF226D1499DD77203935E502C3ACB2 /* Pods-SixBase_Example-dummy.m */; };
-		EEC1B773071E59FEB16C917D5D75CE36 /* router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303D4D2B4E8881C4F98581390CA29CA3 /* router.swift */; };
-		F508B295A478D954EFA166F7F0195B28 /* SixBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C1129B2156A5EEC1C5B0D4C6B9744B /* SixBase-dummy.m */; };
-		FE916FA9C5312F7D096FF6DDB4B706E8 /* SixBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BADA2DEAB63D21090C93ED5CA71B5C /* SixBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD36CEF596932D5B4D47262A5E75473F /* SixBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17BC1002C09F7277C3F3AFBB131AA320 /* SixBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4D18BD6A822DC399EC225374401D8D9D /* PBXContainerItemProxy */ = {
+		0244058C170F6EA7E1575981541A39FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 48DB4005EE1985FCB3FD780C630A694F;
 			remoteInfo = SixBase;
 		};
-		82405F90C412DC894A0667EC293365EE /* PBXContainerItemProxy */ = {
+		B45861C5178C4C41B0B1677776FDB495 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -40,54 +41,55 @@
 /* Begin PBXFileReference section */
 		050F7EE17799DB15949183345E38877A /* Pods-SixBase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SixBase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0630522375125762F6E4186674E7E7DD /* Pods-SixBase_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SixBase_Example"; path = Pods_SixBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF0E1EB705E7926C0F8D3BA37BE5660 /* SixBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SixBase-dummy.m"; sourceTree = "<group>"; };
+		17BC1002C09F7277C3F3AFBB131AA320 /* SixBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SixBase-umbrella.h"; sourceTree = "<group>"; };
 		2783A5E23A49EAAA6930F5A88B8C4513 /* Pods-SixBase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SixBase_Example.modulemap"; sourceTree = "<group>"; };
-		303D4D2B4E8881C4F98581390CA29CA3 /* router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = router.swift; path = SixBase/Classes/Router/router.swift; sourceTree = "<group>"; };
 		359786F4428F88D6BC65D0CBA2A871BF /* Pods-SixBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SixBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3BD391F7E8993C45814EAC80F5BC8054 /* Pods-SixBase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SixBase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4164ACEEFD1AEBB3E9F7BFA99E2EDA73 /* Pods-SixBase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SixBase_Tests.modulemap"; sourceTree = "<group>"; };
-		441100551BA58E59DEB71D7F35B36B63 /* SixBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SixBase-prefix.pch"; sourceTree = "<group>"; };
+		4173C25BB2520935B183708908D39606 /* router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = router.swift; path = SixBase/Classes/Router/router.swift; sourceTree = "<group>"; };
 		4565213B422336684C93513DD2F638B4 /* Pods-SixBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SixBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4AB970605EAFA52A8735BEFB55568438 /* SixBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SixBase-Info.plist"; sourceTree = "<group>"; };
-		4B7B3401AE7084EC9750268906846780 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5BDC710986BD50A82040C8712CADBE5A /* SixBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SixBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4EAEDF505A179D8374E4F10B0645D692 /* SixBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SixBase.debug.xcconfig; sourceTree = "<group>"; };
+		5E94AF1255DA691C6AF950B7241CB80D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6505BEA2F36409B193D8A764319955F4 /* SixBase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SixBase; path = SixBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		734392CA6A82E20BC2BB23E93C04939A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		738E670A7D491F166DED2127ECFC306A /* Pods-SixBase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SixBase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7B84AEA5AE1E18AA1D75A0D63E3A9301 /* Pods-SixBase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SixBase_Example-umbrella.h"; sourceTree = "<group>"; };
-		7F9EA6AE61BE4829FB69CB354C650B47 /* SixBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SixBase.release.xcconfig; sourceTree = "<group>"; };
-		7FEDBD1172861794D4268B4AF6628535 /* SixBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SixBase.modulemap; sourceTree = "<group>"; };
-		84BADA2DEAB63D21090C93ED5CA71B5C /* SixBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SixBase-umbrella.h"; sourceTree = "<group>"; };
-		92C1129B2156A5EEC1C5B0D4C6B9744B /* SixBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SixBase-dummy.m"; sourceTree = "<group>"; };
+		833C8829BC361BA7BC96ABF98D60A3D3 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = SixBase/Classes/Utils/Utils.swift; sourceTree = "<group>"; };
 		92C1563A7F1ECEDE52A0D7B6A860B8F6 /* Pods-SixBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SixBase_Example.release.xcconfig"; sourceTree = "<group>"; };
+		983D0371980827B61D9049B784D9B4E2 /* SixBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SixBase-prefix.pch"; sourceTree = "<group>"; };
 		9A92FD8590F78E82191DC3484EF5F0D2 /* Pods-SixBase_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SixBase_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E68E700F4BDC83DB7721BFC15F15C4D /* Pods-SixBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SixBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A095D83116DCD12C099B40728E545C99 /* Pods-SixBase_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SixBase_Tests-Info.plist"; sourceTree = "<group>"; };
 		A99E1CEA9FD1082D77C084BE3DCAC76E /* Pods-SixBase_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SixBase_Tests"; path = Pods_SixBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9239C6560D5F37562986B40ABC7A25 /* SixBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SixBase-Info.plist"; sourceTree = "<group>"; };
 		C4E327966DE66436B0012581E848F937 /* Pods-SixBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SixBase_Tests-dummy.m"; sourceTree = "<group>"; };
+		CE51C4FE2C644FA700326B9A /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		D4C61CF2772F9E99E7DF51477D872C3D /* SixBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SixBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DD51B752F0719406BA3C531786638E77 /* Pods-SixBase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SixBase_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DEC55B40250FF347C1939EDD8565E3DF /* Pods-SixBase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SixBase_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E47AE29586EE742E59DAED613D497F24 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = SixBase/Classes/Utils/Utils.swift; sourceTree = "<group>"; };
+		E0970CB85624C706C20F158AE55180DE /* SixBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SixBase.release.xcconfig; sourceTree = "<group>"; };
+		E12E630DF2575B9CB4C942BFB03DB565 /* SixBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SixBase.modulemap; sourceTree = "<group>"; };
 		F22D0C00BCB0B982D0F53F0429E8B665 /* Pods-SixBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SixBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F23361893371A9FC4EAA5075EE086790 /* SixBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SixBase.debug.xcconfig; sourceTree = "<group>"; };
-		F64289A0340DB615A705CA755CD90716 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F8EF226D1499DD77203935E502C3ACB2 /* Pods-SixBase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SixBase_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42FC7AC300E350FF7379FFEB63839F00 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55DEAC5B711A9331F538892D06E72A9C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		43FBC06B12CEE0EF146431E6A207D5E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				989024F8D36171FB6744352E25941CC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8785147DA1C0D2B62A0B1462D0347AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCDB780E217CDAF3B800969A33503AB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,14 +104,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		026EE2C8B63B3D4397CEAA1088329B18 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				303D4D2B4E8881C4F98581390CA29CA3 /* router.swift */,
-			);
-			name = Router;
-			sourceTree = "<group>";
-		};
 		0ED8A0F3542DD35F98296669BBF35A2C /* Pods-SixBase_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +137,50 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		58CB5B9A1E4CEC98DB99B16DAB72D5FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E12E630DF2575B9CB4C942BFB03DB565 /* SixBase.modulemap */,
+				0CF0E1EB705E7926C0F8D3BA37BE5660 /* SixBase-dummy.m */,
+				BD9239C6560D5F37562986B40ABC7A25 /* SixBase-Info.plist */,
+				983D0371980827B61D9049B784D9B4E2 /* SixBase-prefix.pch */,
+				17BC1002C09F7277C3F3AFBB131AA320 /* SixBase-umbrella.h */,
+				4EAEDF505A179D8374E4F10B0645D692 /* SixBase.debug.xcconfig */,
+				E0970CB85624C706C20F158AE55180DE /* SixBase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SixBase";
+			sourceTree = "<group>";
+		};
+		60A4D7EFA7D179464E4794DE12AA24A4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				833C8829BC361BA7BC96ABF98D60A3D3 /* Utils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		70B1AD6F4DBD304486C3F771C7B5E0C9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE51C4FE2C644FA700326B9A /* UIImage+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		894A9EDADF13F5B734824C56FD655CC6 /* SixBase */ = {
+			isa = PBXGroup;
+			children = (
+				70B1AD6F4DBD304486C3F771C7B5E0C9 /* Extension */,
+				C8B4082018707E1E70109001D808CBEC /* Pod */,
+				F048D5692DC27BC575FB0636BE72C7D5 /* Router */,
+				58CB5B9A1E4CEC98DB99B16DAB72D5FC /* Support Files */,
+				60A4D7EFA7D179464E4794DE12AA24A4 /* Utils */,
+			);
+			name = SixBase;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		95F6E648DFC9A6EF813F9BDE8B688061 /* Pods-SixBase_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,48 +198,21 @@
 			path = "Target Support Files/Pods-SixBase_Example";
 			sourceTree = "<group>";
 		};
-		C1DC7D5407CEE833567AA461C38E4A93 /* Pod */ = {
+		C8B4082018707E1E70109001D808CBEC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F64289A0340DB615A705CA755CD90716 /* LICENSE */,
-				4B7B3401AE7084EC9750268906846780 /* README.md */,
-				5BDC710986BD50A82040C8712CADBE5A /* SixBase.podspec */,
+				5E94AF1255DA691C6AF950B7241CB80D /* LICENSE */,
+				734392CA6A82E20BC2BB23E93C04939A /* README.md */,
+				D4C61CF2772F9E99E7DF51477D872C3D /* SixBase.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		C3964C249113C092256BEAA1BE52F422 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7FEDBD1172861794D4268B4AF6628535 /* SixBase.modulemap */,
-				92C1129B2156A5EEC1C5B0D4C6B9744B /* SixBase-dummy.m */,
-				4AB970605EAFA52A8735BEFB55568438 /* SixBase-Info.plist */,
-				441100551BA58E59DEB71D7F35B36B63 /* SixBase-prefix.pch */,
-				84BADA2DEAB63D21090C93ED5CA71B5C /* SixBase-umbrella.h */,
-				F23361893371A9FC4EAA5075EE086790 /* SixBase.debug.xcconfig */,
-				7F9EA6AE61BE4829FB69CB354C650B47 /* SixBase.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SixBase";
-			sourceTree = "<group>";
-		};
-		C4333716A96B68491BB0C35A6ED73FBC /* SixBase */ = {
-			isa = PBXGroup;
-			children = (
-				C1DC7D5407CEE833567AA461C38E4A93 /* Pod */,
-				026EE2C8B63B3D4397CEAA1088329B18 /* Router */,
-				C3964C249113C092256BEAA1BE52F422 /* Support Files */,
-				D5BC29827F5BD7AD3221EAA2BFBE6455 /* Utils */,
-			);
-			name = SixBase;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FDC4867AC5B3566418D352F5C04895D3 /* Development Pods */,
+				EA9AAEF7AFB4F326B083BC60BEC134C6 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D82355517EC86257D84C7CDC0EA1CE95 /* Products */,
 				1106785807F45494883CC11F60F97870 /* Targets Support Files */,
@@ -216,14 +227,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5BC29827F5BD7AD3221EAA2BFBE6455 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				E47AE29586EE742E59DAED613D497F24 /* Utils.swift */,
-			);
-			name = Utils;
-			sourceTree = "<group>";
-		};
 		D82355517EC86257D84C7CDC0EA1CE95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,30 +237,38 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FDC4867AC5B3566418D352F5C04895D3 /* Development Pods */ = {
+		EA9AAEF7AFB4F326B083BC60BEC134C6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C4333716A96B68491BB0C35A6ED73FBC /* SixBase */,
+				894A9EDADF13F5B734824C56FD655CC6 /* SixBase */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F048D5692DC27BC575FB0636BE72C7D5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4173C25BB2520935B183708908D39606 /* router.swift */,
+			);
+			name = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		194B96BC2AF874CAF18629C1C54A02F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD36CEF596932D5B4D47262A5E75473F /* SixBase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4FAE70E3FB17B5D1D1985CC896E3506 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				095433125B3BEC6B1DAF697AD72DF41E /* Pods-SixBase_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B68A0E3B4CA3930CADFD546B1B3BECB2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE916FA9C5312F7D096FF6DDB4B706E8 /* SixBase-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +285,12 @@
 /* Begin PBXNativeTarget section */
 		48DB4005EE1985FCB3FD780C630A694F /* SixBase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6280A9AD29C1436FDB5295203B870004 /* Build configuration list for PBXNativeTarget "SixBase" */;
+			buildConfigurationList = 69460826F5194CEFCE30123C028982D7 /* Build configuration list for PBXNativeTarget "SixBase" */;
 			buildPhases = (
-				B68A0E3B4CA3930CADFD546B1B3BECB2 /* Headers */,
-				1B4DEDA72ABE9D72BA726CB66DAE1DDC /* Sources */,
-				42FC7AC300E350FF7379FFEB63839F00 /* Frameworks */,
-				2AB75BE27797BEA352108B5243A32B8E /* Resources */,
+				194B96BC2AF874CAF18629C1C54A02F8 /* Headers */,
+				309E06A6549B7294CE3FD3E47FA4B1C3 /* Sources */,
+				8785147DA1C0D2B62A0B1462D0347AF3 /* Frameworks */,
+				1267076DFA010A6656BCCA3D93EC453E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -302,7 +313,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				84D46510AC171E5FD665BE29E8BE405D /* PBXTargetDependency */,
+				20D2700CE568C653BBE871A821647EB6 /* PBXTargetDependency */,
 			);
 			name = "Pods-SixBase_Tests";
 			productName = Pods_SixBase_Tests;
@@ -321,7 +332,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E3FFC7CBC0A1310ACF4A59DA80AF2D65 /* PBXTargetDependency */,
+				E51133106B4A226A7016A49E65F229E4 /* PBXTargetDependency */,
 			);
 			name = "Pods-SixBase_Example";
 			productName = Pods_SixBase_Example;
@@ -358,7 +369,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2AB75BE27797BEA352108B5243A32B8E /* Resources */ = {
+		1267076DFA010A6656BCCA3D93EC453E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,13 +393,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B4DEDA72ABE9D72BA726CB66DAE1DDC /* Sources */ = {
+		309E06A6549B7294CE3FD3E47FA4B1C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC1B773071E59FEB16C917D5D75CE36 /* router.swift in Sources */,
-				F508B295A478D954EFA166F7F0195B28 /* SixBase-dummy.m in Sources */,
-				219A3F0DD6CDF505C27D3663ED4B4D5A /* Utils.swift in Sources */,
+				CE51C4FF2C644FA700326B9A /* UIImage+Extension.swift in Sources */,
+				29B05B9A818828F8515F42C01921396E /* router.swift in Sources */,
+				9FFC3EA190740A1A1220CCAAD230C914 /* SixBase-dummy.m in Sources */,
+				C59C39178525335733EBAB7D37E7637C /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,17 +423,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		84D46510AC171E5FD665BE29E8BE405D /* PBXTargetDependency */ = {
+		20D2700CE568C653BBE871A821647EB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SixBase_Example";
 			target = 96442B7989CEE6634E6C4BC7085FD60C /* Pods-SixBase_Example */;
-			targetProxy = 82405F90C412DC894A0667EC293365EE /* PBXContainerItemProxy */;
+			targetProxy = B45861C5178C4C41B0B1677776FDB495 /* PBXContainerItemProxy */;
 		};
-		E3FFC7CBC0A1310ACF4A59DA80AF2D65 /* PBXTargetDependency */ = {
+		E51133106B4A226A7016A49E65F229E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SixBase;
 			target = 48DB4005EE1985FCB3FD780C630A694F /* SixBase */;
-			targetProxy = 4D18BD6A822DC399EC225374401D8D9D /* PBXContainerItemProxy */;
+			targetProxy = 0244058C170F6EA7E1575981541A39FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -495,71 +507,6 @@
 			};
 			name = Debug;
 		};
-		5595B1D95E46A1F03105A3941B62A02D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F9EA6AE61BE4829FB69CB354C650B47 /* SixBase.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SixBase/SixBase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SixBase/SixBase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SixBase/SixBase.modulemap";
-				PRODUCT_MODULE_NAME = SixBase;
-				PRODUCT_NAME = SixBase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		72F0B70290908BEB54AFAC81C892436D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F23361893371A9FC4EAA5075EE086790 /* SixBase.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SixBase/SixBase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SixBase/SixBase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SixBase/SixBase.modulemap";
-				PRODUCT_MODULE_NAME = SixBase;
-				PRODUCT_NAME = SixBase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -626,6 +573,39 @@
 			};
 			name = Debug;
 		};
+		9E3D784B332DC5E5AF51C49937C40F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0970CB85624C706C20F158AE55180DE /* SixBase.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SixBase/SixBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SixBase/SixBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SixBase/SixBase.modulemap";
+				PRODUCT_MODULE_NAME = SixBase;
+				PRODUCT_NAME = SixBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -681,8 +661,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -757,6 +736,38 @@
 			};
 			name = Debug;
 		};
+		BFC066A5ADACEE53E13370450B2BDB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EAEDF505A179D8374E4F10B0645D692 /* SixBase.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SixBase/SixBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SixBase/SixBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SixBase/SixBase.modulemap";
+				PRODUCT_MODULE_NAME = SixBase;
+				PRODUCT_NAME = SixBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -769,11 +780,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6280A9AD29C1436FDB5295203B870004 /* Build configuration list for PBXNativeTarget "SixBase" */ = {
+		69460826F5194CEFCE30123C028982D7 /* Build configuration list for PBXNativeTarget "SixBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72F0B70290908BEB54AFAC81C892436D /* Debug */,
-				5595B1D95E46A1F03105A3941B62A02D /* Release */,
+				BFC066A5ADACEE53E13370450B2BDB91 /* Debug */,
+				9E3D784B332DC5E5AF51C49937C40F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
