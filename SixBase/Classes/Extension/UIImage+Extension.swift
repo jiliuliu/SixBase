@@ -8,10 +8,10 @@
 import Foundation
 
 
-extension UIImage {
+public extension UIImage {
     
-    convenience init?(_ name: String, bundleClass: AnyClass, resource: String = "Resources") {
-        let bundle = Bundle(for: bundleClass)
+    convenience init?(bundle aClass: AnyClass, name: String, resource: String = "Resources") {
+        let bundle = Bundle(for: aClass)
         if let resourceBundleURL = bundle.url(forResource: resource, withExtension: "bundle") {
             if let resourceBundle = Bundle(url: resourceBundleURL) {
                 self.init(named: name, in: resourceBundle, compatibleWith: nil)
@@ -20,3 +20,4 @@ extension UIImage {
         return nil
     }
 }
+
