@@ -7,7 +7,7 @@
 
 import Foundation
 
-
+// xxxx
 public extension UIImage {
     
     convenience init?(bundle aClass: AnyClass, name: String, resource: String = "Resources") {
