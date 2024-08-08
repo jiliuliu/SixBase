@@ -15,6 +15,7 @@ public extension UIImage {
         if let resourceBundleURL = bundle.url(forResource: resource, withExtension: "bundle") {
             if let resourceBundle = Bundle(url: resourceBundleURL) {
                 self.init(named: name, in: resourceBundle, compatibleWith: nil)
+                return
             }
         }
         return nil
