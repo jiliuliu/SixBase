@@ -1,11 +1,11 @@
 PODS:
-  - SixBase (0.1.0):
-    - SixBase/Extension (= 0.1.0)
-    - SixBase/Router (= 0.1.0)
-    - SixBase/Utils (= 0.1.0)
-  - SixBase/Extension (0.1.0)
-  - SixBase/Router (0.1.0)
-  - SixBase/Utils (0.1.0)
+  - SixBase (0.1.1):
+    - SixBase/Extension (= 0.1.1)
+    - SixBase/Router (= 0.1.1)
+    - SixBase/Utils (= 0.1.1)
+  - SixBase/Extension (0.1.1)
+  - SixBase/Router (0.1.1)
+  - SixBase/Utils (0.1.1)
 
 DEPENDENCIES:
   - SixBase (from `../`)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SixBase: b3badb5aea54a8bfa4f67aa9d5dab4414b55975c
+  SixBase: 65b0d51958e4659db94f143a8ff5f437687364fa
 
 PODFILE CHECKSUM: a85b8870928c6a9a280e06c856c7e1d9c0e13fd2
 
